@@ -12,6 +12,7 @@ document.getElementById('primeiroFilhoDoFilho').innerText = 'Adcionei um texto'
 // Acesse o primeiroFilho a partir de pai .
 document.getElementById('pai').childNodes
 // Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta .
+console.log(document.querySelector('#elementoOndeVoceEsta').firstChild())
 // Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta .
 // Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta .
 // Agora acesse o terceiroFilho a partir de pai .
