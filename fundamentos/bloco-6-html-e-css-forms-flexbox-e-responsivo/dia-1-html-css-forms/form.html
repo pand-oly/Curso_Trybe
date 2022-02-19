@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulario TrybeTrip</h1>
+    </header>
+    <fieldset id="main-form">
+        <div>
+            <label for="name-compl">Nome</label>
+            <input type="text" id="name-compl" min="10" max="40" required>
+            <label for="input-emial">Email</label>
+            <input type="text" id="input-email" min="10" max="50" required>
+        </div>
+        <div>
+            <input type="radio" name="destino" id="praia">
+            <label for="praia">Praia</label>
+            <input type="radio" name="destino" id="montanha">
+            <label for="montanha">Montanha</label>
+            <input type="radio" name="destino" id="campo">
+            <label for="campo">Campo</label>
+            <input type="radio" name="destino" id="cidade">
+            <label for="cidade">Cidade</label>
+        </div>
+        <div>
+            <label for="box-resposta">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso
+                TrybeTrip?</label>
+            <textarea name="resposta" id="box-resposta" cols="30" rows="10" maxlength="500"></textarea>
+        </div>
+        <div>
+            <label for="date-to-trip">Qual a melhor data para realizar sua viagem?</label>
+            <input type="date" name="date" id="date-to-trip">
+        </div>
+        <div>
+            <input type="checkbox" name="anu" id="ads" required>
+            <label for="ads">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+            <br>
+            <input type="checkbox" name="termo" id="termo" required>
+            <label for="termos">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos
+                futuros.</label>
+        </div>
+        <div>
+            <button type="submit" id="go">Enviar</button>
+            <button type="reset">Apagar</button>
+        </div>
+    </fieldset>
+    <script src="script.js"></script>
+</body>
+
+</html>
