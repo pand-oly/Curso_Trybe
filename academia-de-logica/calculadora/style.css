@@ -1,0 +1,20 @@
+label,
+input {
+  display: block;
+}
+
+input {
+  margin-bottom: 15px;
+}
+
+.box-result {
+  margin-top: 10px;
+  width: 200px;
+  height: 100px;
+  border: 1px solid #000;
+}
+
+#resultado {
+  padding: 5px;
+  margin: 0;
+}
