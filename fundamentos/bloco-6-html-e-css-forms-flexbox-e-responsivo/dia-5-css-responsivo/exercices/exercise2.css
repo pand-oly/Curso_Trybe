@@ -21,13 +21,13 @@ body {
 
 .menu-container ul {
   display: flex;
-  flex-grow: 1;
   background-color: red;
   border-bottom: 1px solid black;
 }
 
 .menu-container ul li {
   display: flex;
+  justify-content: space-around;
   flex-grow: 1;
 }
 
@@ -64,3 +64,44 @@ footer {
   margin: 10px;
   font-size: 20px;
 }
+
+@media screen and (min-width: 900px) {
+  .main-title {
+    font-size: 50px;
+  }
+
+  .menu-container {
+    font-size: 28px;
+  }
+
+  .container-aside {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+  }
+
+  .container-aside h2 {
+    font-size: 35px;
+  }
+
+  .main-content h1 {
+    font-size: 45px;
+  }
+
+  .main-content p {
+    font-size: 28px;
+  }
+
+  .main-content {
+    padding: 15px;
+  }
+
+  h3 {
+    font-size: 35px;
+  }
+  
+  footer {
+    margin: 15px;
+    font-size: 25px;
+  }  
+} 
