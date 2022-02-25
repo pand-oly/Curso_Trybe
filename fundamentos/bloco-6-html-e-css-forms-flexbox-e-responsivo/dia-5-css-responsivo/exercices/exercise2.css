@@ -93,7 +93,7 @@ footer {
   }
 
   .main-content {
-    padding: 15px;
+    margin: 15px;
   }
 
   h3 {
@@ -103,5 +103,44 @@ footer {
   footer {
     margin: 15px;
     font-size: 25px;
-  }  
-} 
+  }
+}
+
+@media screen and (min-width: 1650px) {
+  .main-title {
+    font-size: 100px;
+  }
+
+  .menu-container {
+    font-size: 50px;
+  }
+
+  .container-aside h2 {
+    font-size: 55px;
+  }
+
+  .container-aside {
+    font-size: 40px;
+  }
+
+  .main-content h1 {
+    font-size: 80px;
+  }
+
+  .main-content p {
+    font-size: 55px;
+  }
+
+  .main-content {
+    margin: 35px;
+  }
+
+  h3 {
+    font-size: 70px;
+  }
+  
+  footer {
+    margin: 35px;
+    font-size: 55px;
+  }
+}
