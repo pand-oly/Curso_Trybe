@@ -1,0 +1,23 @@
+{
+  "name": "curso_trybe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pand-oly/Curso_Trybe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pand-oly/Curso_Trybe/issues"
+  },
+  "homepage": "https://github.com/pand-oly/Curso_Trybe#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
