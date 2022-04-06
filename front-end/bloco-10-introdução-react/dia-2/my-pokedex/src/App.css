@@ -39,8 +39,23 @@
 
 .box-pokemon {
   border: 1px solid #000;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  align-items: center;
+  min-width: 273px;
+  justify-content: space-around;
+  padding: 5px;
 }
 
 .container-pokemon {
+  flex-wrap: wrap;
   display: flex;
+  margin: 10px;
+}
+
+@media screen and (max-width: 630px) {
+  .box-pokemon {
+    min-width: 90%;
+  }
 }
