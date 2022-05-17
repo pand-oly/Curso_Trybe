@@ -1,0 +1,13 @@
+{
+    "Group 1": [
+        {
+            "x": 40,
+            "y": 40,
+            "height": 200,
+            "width": 330,
+            "color": "yellow",
+            "title": "mokcs notas",
+            "text": "mock.mockClear()\n  \u00datil quando voc\u00ea deseja limpar os dados de uso de uma simula\u00e7\u00e3o entre dois expects;\n\nmock.mockReset()\n  Faz o que o mockClear() faz;\n  Remove qualquer retorno estipulado ou implementa\u00e7\u00e3o;\n  \u00datil quando voc\u00ea deseja resetar uma simula\u00e7\u00e3o para seu estado inicial;\n\nmock.mockRestore()\n  Faz tudo que mockReset() faz;\n  Restaura a implementa\u00e7\u00e3o original;\n  \u00datil para quando voc\u00ea quer simular fun\u00e7\u00f5es em certos casos de teste e restaurar a implementa\u00e7\u00e3o original em outros;"
+        }
+    ]
+}
